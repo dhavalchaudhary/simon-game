@@ -1,0 +1,100 @@
+body {
+    background-color: #FFFFFF;
+}
+
+.game-buttons {
+    height: 200px;
+    width: 200px;
+    outline: none !important;
+    border: 0px !important;
+}
+
+#top-left {
+    border-top-left-radius: 100%;
+}
+
+#top-right {
+    border-top-right-radius: 100%;
+}
+
+#bottom-left {
+    border-bottom-left-radius: 100%;
+}
+
+#bottom-right {
+    border-bottom-right-radius: 100%;
+}
+
+.row {
+    margin: 0px;
+    padding: 0px;
+}
+
+.full-red {
+    background-color: #FC0102;
+}
+
+.red {
+    background-color: #9f0f17;
+}
+
+.green {
+    background-color: #00a74a;
+}
+
+.yellow {
+    background-color: #cca707;
+}
+
+.blue {
+    background-color: #094a8f;
+}
+
+.yellow.light {
+    background-color: #fed93f;
+}
+
+.blue.light {
+    background-color: #1c8cff;
+}
+
+.red.light {
+    background-color: #ff4c4c;
+}
+
+.green.light {
+    background-color: #13ff7c;
+}
+
+.btn[disabled] {
+    opacity: 1;
+    cursor: inherit;
+}
+
+.btn {
+    border-radius: 0px;
+}
+
+.jumbotron {
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+sup {
+    font-size: 20px;
+    vertical-align: super;
+}
+
+@media screen and (max-width:432px) {
+    .game-buttons {
+        height: 150px;
+        width: 150px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .game-buttons {
+        height: 120px;
+        width: 120px;
+    }
+}
